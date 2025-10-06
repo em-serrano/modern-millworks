@@ -8,7 +8,7 @@ export default function Brand() {
       <img
         src={Logo}
         alt="Modern Millworks Logo"
-        className="h-16 w-16 sm:h-20 sm:w-20 items-center shrink-1"
+        className="h-16 w-15  m-1 shrink-0"
       />
       <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white tracking-tight font-[Montserrat]">
         Modern Millworks
