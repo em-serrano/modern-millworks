@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import { Link, useLocation } from 'react-router-dom';
+
 import { fadeIn, staggerContainer, slideIn, zoomIn } from "../utils/motion";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import Brand from "../components/Brand";
 import LogoTicker from "../components/LogoTicker";
-
 
 import kitchen1 from '/assets/Kitchens/kitchen1.JPG';
 import shelf from '/assets/Walls/customShelf.JPG';
@@ -18,33 +19,6 @@ const galleryImages = [
   { id: 3, src: bath1, alt: 'Luxury bathroom vanity', title: 'Bathroom Cabinetry' },
   { id: 4, src: entertainment, alt: 'Custom entertainment center', title: 'Media Solutions' }
 ];
-// Sample gallery images
-// const galleryImages = [
-//   {
-//     id: 1,
-//     src: "./src/assets/Kitchens/kitchen1.jpg",
-//     alt: "Modern kitchen installation",
-//     title: "Contemporary Kitchen"
-//   },
-//   {
-//     id: 2,
-//     src: "./src/assets/Walls/customShelf.jpg",
-//     alt: "Custom built-in shelving",
-//     title: "Wall Systems"
-//   },
-//   {
-//     id: 3,
-//     src: "./src/assets/BedandBath/bath1.jpeg",
-//     alt: "Luxury bathroom vanity",
-//     title: "Bathroom Cabinetry"
-//   },
-//   {
-//     id: 4,
-//     src: "./src/assets/Entertainment/Entertainment.jpeg",
-//     alt: "Custom entertainment center",
-//     title: "Media Solutions"
-//   }
-// ];
 
 export default function About() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -53,7 +27,6 @@ export default function About() {
   useEffect(() => {
     setIsLoaded(true);
     
-    // Set up gallery rotation
     const interval = setInterval(() => {
       setCurrentImageIndex(prev => 
         prev === galleryImages.length - 1 ? 0 : prev + 1
@@ -107,7 +80,6 @@ export default function About() {
         </div>
 
         <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 lg:py-24 min-h-screen flex items-center">
-          {/* Mobile-first responsive layout */}
           <div className="w-full flex flex-col lg:flex-row items-center lg:items-start gap-8 lg:gap-16">
             
             {/* Gallery Section */}
@@ -180,34 +152,33 @@ export default function About() {
 
                 {/* Action Buttons */}
                 <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center lg:justify-start">
-                  <motion.a
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                    href="/projects"
-                    className="w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-blue-900 text-white font-medium text-sm sm:text-base rounded-lg hover:bg-blue-800 transition shadow-lg text-center"
-                  >
-                    View Our Work
-                  </motion.a>
-                  <motion.a
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                    href="/contact"
-                    className="w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-transparent border-2 border-blue-900 text-blue-900 font-medium text-sm sm:text-base rounded-lg hover:bg-blue-50 transition shadow-lg text-center"
-                  >
-                    Get In Touch
-                  </motion.a>
+                  <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+                    <Link
+                      to="/projects"
+                      className="w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-blue-900 text-white font-medium text-sm sm:text-base rounded-lg hover:bg-blue-800 transition shadow-lg text-center inline-block"
+                    >
+                      View Our Work
+                    </Link>
+                  </motion.div>
+
+                  <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+                    <Link
+                      to="/contact"
+                      className="w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-transparent border-2 border-blue-900 text-blue-900 font-medium text-sm sm:text-base rounded-lg hover:bg-blue-50 transition shadow-lg text-center inline-block"
+                    >
+                      Get In Touch
+                    </Link>
+                  </motion.div>
                 </div>
               </motion.div>
             </div>
           </div>
         </div>
         
-        {/* Logo Ticker - Hidden on mobile if needed */}
+        {/* Logo Tickers */}
         <div className="hidden sm:block">
           <LogoTicker />
         </div>
-        
-        {/* Mobile Logo Ticker - Optional smaller version */}
         <div className="block sm:hidden">
           <LogoTicker />
         </div>

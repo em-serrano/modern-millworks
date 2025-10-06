@@ -9,6 +9,7 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import ContactPage from "./pages/Contact";
 
+
 function App() {
   useEffect(() => {
     const smoothScroll = (e) => {

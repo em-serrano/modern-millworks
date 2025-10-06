@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 import Brand from './Brand';
 
@@ -18,10 +19,26 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold mb-3">Quick Links</h3>
           <ul className="space-y-2 text-white/80 text-sm">
-            <li><a href="/" className="hover:text-white transition">Home</a></li>
-            <li><a href="/about" className="hover:text-white transition">About Us</a></li>
-            <li><a href="/projects" className="hover:text-white transition">Projects</a></li>
-            <li><a href="/contact" className="hover:text-white transition">Contact</a></li>
+            <li>
+              <Link to="/" className="hover:text-white transition">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link to="/about" className="hover:text-white transition">
+                About Us
+              </Link>
+            </li>
+            <li>
+              <Link to="/projects" className="hover:text-white transition">
+                Projects
+              </Link>
+            </li>
+            <li>
+              <Link to="/contact" className="hover:text-white transition">
+                Contact
+              </Link>
+            </li>
           </ul>
         </div>
 
@@ -29,9 +46,16 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold mb-3">Contact</h3>
           <ul className="text-white/80 text-sm space-y-2">
-            {/* <li>123 Millworks Ave, Austin, TX</li> */}
-            <li>info@modmillworks.com</li>
-            <li>(310) 560-9907</li>
+            <li>
+              <a href="mailto:info@modmillworks.com" className="hover:text-white transition">
+                info@modmillworks.com
+              </a>
+            </li>
+            <li>
+              <a href="tel:3105609907" className="hover:text-white transition">
+                (310) 560-9907
+              </a>
+            </li>
           </ul>
         </div>
 
@@ -39,13 +63,28 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold mb-3">Follow Us</h3>
           <div className="flex space-x-4">
-            <a href="https://facebook.com" target="_blank" className="hover:text-white">
+            <a
+              href="https://facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white"
+            >
               <FaFacebookF size={20} />
             </a>
-            <a href="https://instagram.com" target="_blank" className="hover:text-white">
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white"
+            >
               <FaInstagram size={20} />
             </a>
-            <a href="https://linkedin.com" target="_blank" className="hover:text-white">
+            <a
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white"
+            >
               <FaLinkedinIn size={20} />
             </a>
           </div>
