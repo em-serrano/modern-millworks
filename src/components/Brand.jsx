@@ -4,7 +4,7 @@ import Logo from '/assets/rafRoundel.svg';
 
 export default function Brand() {
   return (
-    <div className="flex items-center whitespace-nowrap">
+    <div className="flex items-center whitespace-nowrap m-5">
       <img
         src={Logo}
         alt="Modern Millworks Logo"
