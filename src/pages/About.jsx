@@ -6,33 +6,45 @@ import Footer from "../components/Footer";
 import Brand from "../components/Brand";
 import LogoTicker from "../components/LogoTicker";
 
-// Sample gallery images
+
+import kitchen1 from '../assets/Kitchens/kitchen1.jpg';
+import shelf from '../assets/Walls/customShelf.jpg';
+import bath1 from '../assets/BedandBath/bath1.jpeg';
+import entertainment from '../assets/Entertainment/Entertainment.jpeg';
+
 const galleryImages = [
-  {
-    id: 1,
-    src: "./src/assets/Kitchens/kitchen1.jpg",
-    alt: "Modern kitchen installation",
-    title: "Contemporary Kitchen"
-  },
-  {
-    id: 2,
-    src: "./src/assets/Walls/customShelf.jpg",
-    alt: "Custom built-in shelving",
-    title: "Wall Systems"
-  },
-  {
-    id: 3,
-    src: "./src/assets/BedandBath/bath1.jpeg",
-    alt: "Luxury bathroom vanity",
-    title: "Bathroom Cabinetry"
-  },
-  {
-    id: 4,
-    src: "./src/assets/Entertainment/Entertainment.jpeg",
-    alt: "Custom entertainment center",
-    title: "Media Solutions"
-  }
+  { id: 1, src: kitchen1, alt: 'Modern kitchen installation', title: 'Contemporary Kitchen' },
+  { id: 2, src: shelf, alt: 'Custom built-in shelving', title: 'Wall Systems' },
+  { id: 3, src: bath1, alt: 'Luxury bathroom vanity', title: 'Bathroom Cabinetry' },
+  { id: 4, src: entertainment, alt: 'Custom entertainment center', title: 'Media Solutions' }
 ];
+// Sample gallery images
+// const galleryImages = [
+//   {
+//     id: 1,
+//     src: "./src/assets/Kitchens/kitchen1.jpg",
+//     alt: "Modern kitchen installation",
+//     title: "Contemporary Kitchen"
+//   },
+//   {
+//     id: 2,
+//     src: "./src/assets/Walls/customShelf.jpg",
+//     alt: "Custom built-in shelving",
+//     title: "Wall Systems"
+//   },
+//   {
+//     id: 3,
+//     src: "./src/assets/BedandBath/bath1.jpeg",
+//     alt: "Luxury bathroom vanity",
+//     title: "Bathroom Cabinetry"
+//   },
+//   {
+//     id: 4,
+//     src: "./src/assets/Entertainment/Entertainment.jpeg",
+//     alt: "Custom entertainment center",
+//     title: "Media Solutions"
+//   }
+// ];
 
 export default function About() {
   const [isLoaded, setIsLoaded] = useState(false);
