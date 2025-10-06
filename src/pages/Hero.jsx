@@ -5,10 +5,10 @@ import Services from './Services';
 import Brand from '../components/Brand';
 
 // Images
-import image1 from '../assets/Kitchens/kitchen4.jpeg';
-import image2 from '../assets/Closets/ClosetSystem1.jpeg';
-import image3 from '../assets/Walls/OfficeSystem.jpeg';
-import image4 from '../assets/Entertainment/LivingRoom.jpeg';
+import image1 from '/assets/Kitchens/kitchen4.jpeg';
+import image2 from '/assets/Closets/ClosetSystem1.jpeg';
+import image3 from '/assets/Walls/OfficeSystem.jpeg';
+import image4 from '/assets/Entertainment/LivingRoom.jpeg';
 
 
 export default function Hero() {

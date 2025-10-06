@@ -81,17 +81,17 @@ const Projects = () => {
   const projectSlides = [
     {
       id: 1,
-      image: "./src/assets/Kitchens/kitchen5.jpeg",
+      image: "/assets/Kitchens/kitchen5.jpeg",
       title: "Modern Kitchen Cabinetry",
     },
     {
       id: 2,
-      image: "./src/assets/Walls/Bookcase.jpeg",
+      image: "/assets/Walls/Bookcase.jpeg",
       title: "Custom Built-in Shelving",
     },
     {
       id: 3,
-      image: "./src/assets/Bespoke/GlassShelf.jpeg",
+      image: "/assets/Bespoke/GlassShelf.jpeg",
       title: "Luxury Bathroom Vanities",
     },
   ];
@@ -103,45 +103,45 @@ const Projects = () => {
       title: "Kitchen Cabinetry",
       description:
         "Custom kitchen solutions featuring premium materials and innovative storage designs.",
-      thumbnail: "./src/assets/Kitchens/kitchen4.jpeg",
+      thumbnail: "/assets/Kitchens/kitchen4.jpeg",
       images: [
         {
-          src: "./src/assets/Kitchens/kitchen4.jpeg",
+          src: "/assets/Kitchens/kitchen4.jpeg",
           alt: "Modern kitchen with white oak cabinetry",
           title: "Contemporary Kitchen Design",
         },
         {
-          src: "./src/assets/Kitchens/kitchen1.jpg",
+          src: "/assets/Kitchens/kitchen1.jpg",
           alt: "Modern kitchen with white oak cabinetry",
           title: "Contemporary Kitchen Design",
         },
         {
-          src: "./src/assets/Kitchens/kitchen8.jpeg",
+          src: "/assets/Kitchens/kitchen8.jpeg",
           alt: "Modern kitchen with white oak cabinetry",
           title: "Contemporary Kitchen Design",
         },
         {
-          src: "./src/assets/Kitchens/kitchen5.jpeg",
+          src: "/assets/Kitchens/kitchen5.jpeg",
           alt: "Modern kitchen with white oak cabinetry",
           title: "Contemporary Kitchen Design",
         },
         {
-          src: "./src/assets/Kitchens/kitchen7.jpeg",
+          src: "/assets/Kitchens/kitchen7.jpeg",
           alt: "Modern kitchen with white oak cabinetry",
           title: "Contemporary Kitchen Design",
         },
         {
-          src: "./src/assets/Kitchens/kitchen2.jpg",
+          src: "/assets/Kitchens/kitchen2.jpg",
           alt: "Traditional kitchen with custom islands",
           title: "Traditional Kitchen with Island",
         },
         {
-          src: "./src/assets/Kitchens/kitchen6.jpeg",
+          src: "/assets/Kitchens/kitchen6.jpeg",
           alt: "Modern kitchen with white oak cabinetry",
           title: "Contemporary Kitchen Design",
         },
         {
-          src: "./src/assets/Kitchens/kitchen3.jpg",
+          src: "/assets/Kitchens/kitchen3.jpg",
           alt: "Luxury kitchen with marble countertops",
           title: "Luxury Kitchen Design",
         },
@@ -152,30 +152,30 @@ const Projects = () => {
       title: "Wall Systems & Built-ins",
       description:
         "Maximize your space with custom built-in solutions designed for functionality and style.",
-      thumbnail: "./src/assets/Walls/OfficeShelving.jpeg",
+      thumbnail: "/assets/Walls/OfficeShelving.jpeg",
       images: [
         {
-          src: "./src/assets/Walls/OfficeShelving.jpeg",
+          src: "/assets/Walls/OfficeShelving.jpeg",
           alt: "Mudroom storage with bench seating",
           title: "Office Shelving and Storage",
         },
         {
-          src: "./src/assets/Walls/customShelf.jpg",
+          src: "/assets/Walls/customShelf.jpg",
           alt: "Floor-to-ceiling built-in bookcase",
           title: "Custom Built-in Bookcase",
         },
         {
-          src: "./src/assets/Walls/CustomStorage1.jpeg",
+          src: "/assets/Walls/CustomStorage1.jpeg",
           alt: "Floor-to-ceiling built-in bookcase",
           title: "Custom Mudroom Storage",
         },
         {
-          src: "./src/assets/Walls/Bookcase.jpeg",
+          src: "/assets/Walls/Bookcase.jpeg",
           alt: "Mudroom storage with bench seating",
           title: "Custom Bookcase",
         },
         {
-          src: "./src/assets/Walls/OfficeSystem.jpeg",
+          src: "/assets/Walls/OfficeSystem.jpeg",
           alt: "Home office built-in desk and storage",
           title: "Home Office Built-ins",
         },
@@ -186,30 +186,30 @@ const Projects = () => {
       title: "Closet Systems",
       description:
         "Organized closet solutions with custom shelving, drawers, and hanging systems.",
-      thumbnail: "./src/assets/Closets/ClosetSystem1.jpeg",
+      thumbnail: "/assets/Closets/ClosetSystem1.jpeg",
       images: [
         {
-          src: "./src/assets/Closets/ClosetSystem1.jpeg",
+          src: "/assets/Closets/ClosetSystem1.jpeg",
           alt: "Walk-in closet with custom organization",
           title: "Walk-in Closet Design",
         },
         {
-          src: "./src/assets/Closets/ClosetIsland.jpeg",
+          src: "/assets/Closets/ClosetIsland.jpeg",
           alt: "Reach-in closet with efficient storage",
           title: "Efficient Closet Storage",
         },
         {
-          src: "./src/assets/Closets/Closet3.jpeg",
+          src: "/assets/Closets/Closet3.jpeg",
           alt: "Reach-in closet with efficient storage",
           title: "Efficient Closet Storage",
         },
         {
-          src: "./src/assets/Closets/Closet6.jpeg",
+          src: "/assets/Closets/Closet6.jpeg",
           alt: "Reach-in closet with efficient storage",
           title: "Efficient Closet Storage",
         },
         {
-          src: "./src/assets/Closets/Closet4.jpeg",
+          src: "/assets/Closets/Closet4.jpeg",
           alt: "Walk-in closet with custom organization",
           title: "Walk-in Closet Design",
         },
@@ -224,30 +224,30 @@ const Projects = () => {
       title: "Entertainment Centers",
       description:
         "Custom media centers and entertainment built-ins for modern living spaces.",
-      thumbnail: "./src/assets/Entertainment/Entertainment.jpeg",
+      thumbnail: "/assets/Entertainment/Entertainment.jpeg",
       images: [
         {
-          src: "./src/assets/Entertainment/Entertainment.jpeg",
+          src: "/assets/Entertainment/Entertainment.jpeg",
           alt: "Built-in entertainment center with TV mount",
           title: "Modern Entertainment Center",
         },
         {
-          src: "./src/assets/Entertainment/Entertainment2.jpeg",
+          src: "/assets/Entertainment/Entertainment2.jpeg",
           alt: "Built-in entertainment center with TV mount",
           title: "Modern Entertainment Center",
         },
         {
-          src: "./src/assets/Entertainment/Entertainment3.jpeg",
+          src: "/assets/Entertainment/Entertainment3.jpeg",
           alt: "Built-in entertainment center with TV mount",
           title: "Modern Entertainment Center",
         },
         {
-          src: "./src/assets/Entertainment/EntertainmentSystem.jpeg",
+          src: "/assets/Entertainment/EntertainmentSystem.jpeg",
           alt: "Custom media cabinet with storage",
           title: "Custom Media Cabinet",
         },
         {
-          src: "./src/assets/Entertainment/LivingRoom.jpeg",
+          src: "/assets/Entertainment/LivingRoom.jpeg",
           alt: "Custom living room built-in",
           title: "Custom Living Room",
         },
@@ -258,35 +258,35 @@ const Projects = () => {
       title: "Specialty Projects",
       description:
         "Unique custom millwork projects including wine cellars, bars, and specialty storage.",
-      thumbnail: "./src/assets/Bespoke/Aquarium.jpeg",
+      thumbnail: "/assets/Bespoke/Aquarium.jpeg",
       images: [
         {
-          src: "./src/assets/Bespoke/Aquarium.jpeg",
+          src: "/assets/Bespoke/Aquarium.jpeg",
           alt: "Unique custom millwork project",
           title: "Specialty Millwork",
         },
         {
-          src: "./src/assets/Bespoke/Bespoke2.jpeg",
+          src: "/assets/Bespoke/Bespoke2.jpeg",
           alt: "Unique custom millwork project",
           title: "Specialty Millwork",
         },
         {
-          src: "./src/assets/Bespoke/CustomTable.jpeg",
+          src: "/assets/Bespoke/CustomTable.jpeg",
           alt: "Unique custom millwork project",
           title: "Specialty Millwork",
         },
         {
-          src: "./src/assets/Bespoke/HiddenDoor.jpeg",
+          src: "/assets/Bespoke/HiddenDoor.jpeg",
           alt: "Unique custom millwork project",
           title: "Specialty Millwork",
         },
         {
-          src: "./src/assets/Bespoke/frames.jpg",
+          src: "/assets/Bespoke/frames.jpg",
           alt: "Custom wine cellar with climate control",
           title: "Frames and Shelving",
         },
         {
-          src: "./src/assets/Bespoke/GlassShelf.jpeg",
+          src: "/assets/Bespoke/GlassShelf.jpeg",
           alt: "Custom home bar with storage",
           title: "Custom Display Shelving",
         },
@@ -297,15 +297,15 @@ const Projects = () => {
       title: "Bathroom Vanities",
       description:
         "Elegant bathroom cabinetry combining luxury materials with practical design.",
-      thumbnail: "./src/assets/BedandBath/bath1.jpeg",
+      thumbnail: "/assets/BedandBath/bath1.jpeg",
       images: [
         {
-          src: "./src/assets/BedandBath/bath1.jpeg",
+          src: "/assets/BedandBath/bath1.jpeg",
           alt: "Double vanity with marble countertops",
           title: "Luxury Double Vanity",
         },
         {
-          src: "./src/assets/BedandBath/Bathroom2.jpeg",
+          src: "/assets/BedandBath/Bathroom2.jpeg",
           alt: "Modern single vanity with storage",
           title: "Modern Bathroom Vanity",
         },

@@ -7,10 +7,10 @@ import Brand from "../components/Brand";
 import LogoTicker from "../components/LogoTicker";
 
 
-import kitchen1 from '../assets/Kitchens/kitchen1.JPG';
-import shelf from '../assets/Walls/customShelf.JPG';
-import bath1 from '../assets/BedandBath/bath1.jpeg';
-import entertainment from '../assets/Entertainment/Entertainment.jpeg';
+import kitchen1 from '/assets/Kitchens/kitchen1.JPG';
+import shelf from '/assets/Walls/customShelf.JPG';
+import bath1 from '/assets/BedandBath/bath1.jpeg';
+import entertainment from '/assets/Entertainment/Entertainment.jpeg';
 
 const galleryImages = [
   { id: 1, src: kitchen1, alt: 'Modern kitchen installation', title: 'Contemporary Kitchen' },

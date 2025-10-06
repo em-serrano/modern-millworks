@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react';
 
 import LogoTicker from '../components/LogoTicker';
 
-import image1 from '../assets/Kitchens/kitchen1.JPG';
-import image2 from '../assets/Kitchens/kitchen2.jpg';
-import image3 from '../assets/Kitchens/kitchen3.jpg';
-import image4 from '../assets/Bespoke/frames.JPG';
+import image1 from '/assets/Kitchens/kitchen1.JPG';
+import image2 from '/assets/Kitchens/kitchen2.jpg';
+import image3 from '/assets/Kitchens/kitchen3.jpg';
+import image4 from '/assets/Bespoke/frames.JPG';
 
 const services = [
   {

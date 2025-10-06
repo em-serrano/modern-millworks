@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
-import Logo from '../assets/rafRoundel.svg'
+import Logo from '/assets/rafRoundel.svg'
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

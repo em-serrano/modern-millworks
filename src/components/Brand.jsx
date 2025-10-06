@@ -1,6 +1,6 @@
 // components/Brand.jsx
 import React from 'react';
-import Logo from '../assets/rafRoundel.svg';
+import Logo from '/assets/rafRoundel.svg';
 
 export default function Brand() {
   return (
