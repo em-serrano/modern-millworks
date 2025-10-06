@@ -111,7 +111,7 @@ const Projects = () => {
           title: "Contemporary Kitchen Design",
         },
         {
-          src: "/assets/Kitchens/kitchen1.jpg",
+          src: "/assets/Kitchens/kitchen1.JPG",
           alt: "Modern kitchen with white oak cabinetry",
           title: "Contemporary Kitchen Design",
         },
@@ -160,7 +160,7 @@ const Projects = () => {
           title: "Office Shelving and Storage",
         },
         {
-          src: "/assets/Walls/customShelf.jpg",
+          src: "/assets/Walls/customShelf.JPG",
           alt: "Floor-to-ceiling built-in bookcase",
           title: "Custom Built-in Bookcase",
         },
@@ -281,13 +281,13 @@ const Projects = () => {
           title: "Specialty Millwork",
         },
         {
-          src: "/assets/Bespoke/frames.jpg",
-          alt: "Custom wine cellar with climate control",
+          src: "/assets/Bespoke/frames.JPG",
+          alt: "Custom made frames",
           title: "Frames and Shelving",
         },
         {
           src: "/assets/Bespoke/GlassShelf.jpeg",
-          alt: "Custom home bar with storage",
+          alt: "Custom glass storage",
           title: "Custom Display Shelving",
         },
       ],
