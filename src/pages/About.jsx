@@ -7,7 +7,7 @@ import Brand from "../components/Brand";
 import LogoTicker from "../components/LogoTicker";
 
 
-import kitchen1 from '../assets/Kitchens/kitchen1.jpg';
+import kitchen1 from '../assets/Kitchens/kitchen1.JPG';
 import shelf from '../assets/Walls/customShelf.jpg';
 import bath1 from '../assets/BedandBath/bath1.jpeg';
 import entertainment from '../assets/Entertainment/Entertainment.jpeg';
