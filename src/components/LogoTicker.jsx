@@ -3,12 +3,12 @@ import React from 'react';
 import logo1 from '../assets/Logos/BandB.jpg';
 import logo2 from '../assets/Logos/bulthaup_logo.svg';
 import logo3 from '../assets/Logos/Poliform.png';
-import logo4 from '../assets/logos/Boffi-Site-Logo.webp';
-import logo5 from '../assets/logos/Molteni.png';
-import logo6 from '../assets/logos/Rimadesio-Logo.png';
-import logo7 from '../assets/logos/Scavolini-Logo.png';
-import logo8 from '../assets/logos/siematic-logo.jpg';
-import logo9 from '../assets/logos/Porecelanosa.png';
+import logo4 from '../assets/Logos/Boffi-Site-Logo.webp';
+import logo5 from '../assets/Logos/Molteni.png';
+import logo6 from '../assets/Logos/Rimadesio-Logo.png';
+import logo7 from '../assets/Logos/Scavolini-Logo.png';
+import logo8 from '../assets/Logos/siematic-logo.jpg';
+import logo9 from '../assets/Logos/Porecelanosa.png';
 
 const logos = [
   { src: logo1, alt: 'B&B Italia', href: 'https://www.bebitalia.com/' },
