@@ -112,7 +112,7 @@ export default function ContactPage() {
                     </div>
                     <h3 className="text-lg sm:text-xl font-bold text-blue-900 mb-2 sm:mb-3">Email</h3>
                     <p className="text-gray-700 font-medium text-base sm:text-lg mb-1">
-                      info@modmillworks.com
+                      garviemcnab@mac.com
                     </p>
                     <p className="text-gray-500 text-sm sm:text-base">
                       24-hour response

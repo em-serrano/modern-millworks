@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { Link } from "react-router-dom";
 
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
@@ -391,14 +391,38 @@ const Projects = () => {
             >
               View Gallery
             </a>
-            <a
-              href="/contact"
+            <Link
+              to="/contact"
               className="w-full sm:w-auto inline-block px-6 py-3 bg-transparent border-2 border-white text-white font-medium rounded-md hover:bg-white/10 transition shadow-lg text-center"
             >
               Request a Quote
-            </a>
+            </Link>
           </div>
         </div>
+                  {/* <div className="mt-20 text-center bg-gray-50 rounded-xl p-8 md:p-12 shadow-inner">
+            <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-blue-900 mb-6">
+              Let's Collaborate and Transform Your Space
+            </h3>
+            <p className="text-base sm:text-lg md:text-xl text-gray-700 max-w-3xl mx-auto mb-8">
+              Whether you're installing new luxury European cabinetry or
+              enhancing your space, our decades of experience ensure exceptional
+              results.
+            </p>
+            <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
+              <Link
+                to="/contact"
+                className="px-6 py-3 md:px-8 md:py-4 bg-blue-900 text-white font-medium rounded-md hover:bg-blue-800 transition shadow-lg"
+              >
+                Contact Us
+              </Link>
+              <Link
+                to="/projects"
+                className="px-6 py-3 md:px-8 md:py-4 bg-white border-2 border-blue-900 text-blue-900 font-medium rounded-md hover:bg-blue-50 transition shadow-lg"
+              >
+                View Projects
+              </Link>
+            </div>
+          </div> */}
 
         {/* Slideshow navigation dots */}
         <div className="absolute bottom-4 left-0 right-0 flex justify-center space-x-2 z-10">

@@ -47,8 +47,8 @@ export default function Footer() {
           <h3 className="text-lg font-semibold mb-3">Contact</h3>
           <ul className="text-white/80 text-sm space-y-2">
             <li>
-              <a href="mailto:info@modmillworks.com" className="hover:text-white transition">
-                info@modmillworks.com
+              <a href="mailto:garviemcnab@mac.com" className="hover:text-white transition">
+                garviemcnab@mac.com
               </a>
             </li>
             <li>

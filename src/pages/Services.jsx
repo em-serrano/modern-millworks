@@ -211,7 +211,7 @@ export default function Services() {
             </h2>
             <p className="text-base sm:text-lg md:text-xl text-gray-700 max-w-4xl mx-auto">
               At Modern Millworks, we specialize in the expert installation of
-              high-end European cabinetry and furniture systems, bringing
+              luxury European cabinetry and furniture systems, bringing
               decades of experience to ensure flawless execution.
             </p>
             <h6 className="text-2xl sm:text-2xl md:text-3xl font-bold text-blue-900 mt-10 mb-0">
